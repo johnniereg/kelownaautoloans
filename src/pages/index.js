@@ -4,7 +4,7 @@ export default () => (
   <div>
     <h1>Kelowna Auto Loans</h1>
     <p>We know bad things happen to good people.</p>
-    <form name="contact" method="POST" data-netlify="true" action="#">
+    <form name="contact" method="POST" data-netlify="true" action="/success">
       <p>
         <label>Your Name: <input type="text" name="name" /></label>
       </p>
