@@ -24,13 +24,13 @@ export default () => (
       </div>
 
       <div>
-        <label htmlFor="email">Email</label>
-        <input type="email" name="email" id="email" required />
+        <label htmlFor="phone">Phone</label>
+        <input type="tel" name="phone" id="phone" required />
       </div>
 
       <div>
-        <label htmlFor="phone">Phone</label>
-        <input type="tel" name="phone" id="phone" required />
+        <label htmlFor="email">Email</label>
+        <input type="email" name="email" id="email" />
       </div>
 
       <div>
@@ -68,16 +68,12 @@ export default () => (
         <input type="text" name="postal" id="postal" />
       </div>
 
-
-      {/* TODO: Address */}
-      {/* TODO: Date of Birth */}
-
       <div>
         {/*
           TODO: Add JS functionality for pre-checked
           React requires event handlers for this state change
         */}
-        <input type="checkbox" id="consent" required />
+        <input type="checkbox" id="consent" defaultChecked />
         <label htmlFor="consent">Consent to bureau check</label>
       </div>
       <div>
