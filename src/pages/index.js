@@ -13,20 +13,35 @@ export default () => (
     >
       <input type="hidden" name="bot-field" />
       <div>
-        <label htmlFor="name">Name</label>
-        <input type="text" name="name" id="name" />
+        <label htmlFor="firstName">First Name</label>
+        <input type="text" name="firstName" id="firstName" required />
+      </div>
+      <div>
+        <label htmlFor="lastName">Last Name</label>
+        <input type="text" name="lastName" id="lastName" required />
       </div>
       <div>
         <label htmlFor="email">Email</label>
-        <input type="text" name="email" id="email" />
+        <input type="email" name="email" id="email" required />
       </div>
       <div>
-        <label htmlFor="message">Message</label>
-        <textarea name="message" id="message" rows="6" required />
+        <label htmlFor="phone">Phone</label>
+        <input type="tel" name="phone" id="phone" required />
+      </div>
+
+      {/* TODO: Address */}
+      {/* TODO: Date of Birth */}
+
+      <div>
+        {/*
+          TODO: Add JS functionality for pre-checked
+          React requires event handlers for this state change
+        */}
+        <input type="checkbox" id="consent" required />
+        <label htmlFor="consent">Consent to bureau check</label>
       </div>
       <div>
-        <input type="submit" value="Drop a line" />
-        <input type="reset" value="Eraser" />
+        <input type="submit" value="Let's Talk" />
       </div>
     </form>
   </div>
