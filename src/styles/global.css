@@ -1,0 +1,20 @@
+html {
+  background-color: antiquewhite;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+label {
+  display: block;
+}
+
+.input-wrapper {
+  margin: 12px 0;
+}
+
+.consent-label {
+  display: inline;
+  padding-left: 8px;
+}
