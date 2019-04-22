@@ -12,22 +12,62 @@ export default () => (
       data-netlify-honeypot="bot-field"
     >
       <input type="hidden" name="bot-field" />
+
       <div>
         <label htmlFor="firstName">First Name</label>
         <input type="text" name="firstName" id="firstName" required />
       </div>
+
       <div>
         <label htmlFor="lastName">Last Name</label>
         <input type="text" name="lastName" id="lastName" required />
       </div>
+
       <div>
         <label htmlFor="email">Email</label>
         <input type="email" name="email" id="email" required />
       </div>
+
       <div>
         <label htmlFor="phone">Phone</label>
         <input type="tel" name="phone" id="phone" required />
       </div>
+
+      <div>
+        <label htmlFor="birthdate">Date of birth</label>
+        <input type="date" name="birthdate" id="birthdate" />
+      </div>
+
+      <div>
+        <label htmlFor="address1">Address</label>
+        <input type="text" name="address1" id="address1" />
+      </div>
+
+      <div>
+        <label htmlFor="address2">Address</label>
+        <input type="text" name="address2" id="address2" />
+      </div>
+
+      <div>
+        <label htmlFor="city">City</label>
+        <input type="text" name="city" id="city" />
+      </div>
+
+      <div>
+        <label htmlFor="province">Province</label>
+        <input type="text" name="province" id="province" />
+      </div>
+
+      <div>
+        <label htmlFor="country">Country</label>
+        <input type="text" name="province" id="country" />
+      </div>
+
+      <div>
+        <label htmlFor="postal">Postal Code</label>
+        <input type="text" name="postal" id="postal" />
+      </div>
+
 
       {/* TODO: Address */}
       {/* TODO: Date of Birth */}
